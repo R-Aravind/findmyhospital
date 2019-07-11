@@ -1,8 +1,8 @@
 <?php
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "medicus";
+    $servername = "remotemysql.com";
+    $username = "J2ya6IZA4h";
+    $password = "5LvNgzsM05";
+    $dbname = "J2ya6IZA4h";
 
 function getData($sql){
     $data = array();
@@ -26,7 +26,7 @@ function getData($sql){
             // echo "Name: " . $row["first_name"]. $row["last_name"]. "<br>" . $row["age"]. "<br>";
             // $data->fname = $row["first_name"];
             // $data->lname = $row["last_name"];
-            $data['back'] = $row;
+            $data[] = $row;
         }
     } else {
         // echo "0 results";
@@ -36,7 +36,7 @@ function getData($sql){
 
     $myJSON = json_encode($data);
 
-    echo $myJSON;
+    return $myJSON;
 
 }
 
