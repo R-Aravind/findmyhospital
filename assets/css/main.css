@@ -1,8 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-<<<<<<< Updated upstream
-=======
     font-family: sans-serif;
 }
 
@@ -49,5 +47,4 @@ main .search-box h1 {
 main .search-box input.search {
     padding: 10px;
     width: 40%;
->>>>>>> Stashed changes
 }
