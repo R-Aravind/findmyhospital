@@ -8,6 +8,7 @@
 
     <!-- MAIN STYLESHEET -->
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
@@ -20,10 +21,27 @@
         <main>
             <div class="search-box">
                 <h1>find your hospital</h1>
-                <input type="text" class="search">
+                <div class="search-bar">
+                    <input type="text" id="search-input" class="search-input">
+                    <button type="submit" onclick="Search()" class="search-button"><i
+                            class="material-icons">search</i></button>
+                </div>
             </div>
 
-            <div class="featured">
+
+            <div class="featured" id="featured">
+
+                <div id="search-results">
+                    <h3>Search results</h3>
+                    <!-- TO BE INJECTED BY JS -->
+                    <ul class="card-box">
+                        <div class="card"></div>
+                        <div class="card"></div>
+                        <div class="card"></div>
+                        <div class="card"></div>
+                    </ul>
+                </div>
+
                 <div class="f_hos">
                     <h3>Featured hospitals</h3>
                     <ul class="card-box">
@@ -60,7 +78,9 @@
 
         <footer>
             <div class="footer-content">
-                <p>Made with <span style="color:white;">&hearts;</span> by <span>Runtime Terror</span></p>
+                <p>Made with <span style="color:white;">&hearts;</span> by <span
+                        style="background-color: rgb(47, 47, 131);">Runtime
+                        Terror</span></p>
             </div>
         </footer>
 
