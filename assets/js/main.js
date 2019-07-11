@@ -1,14 +1,19 @@
-let result = document.getElementById("search-results");
-let featured = document.getElementById("featured");
-let SearchInput = document.getElementById("search-input")
-let hos = document.getElementById("f_hos");
-let docs = document.getElementById("f_docs")
+const result = document.getElementById("search-results");
+const featured = document.getElementById("featured");
+const SearchInput = document.getElementById("search-input")
+const hos = document.getElementById("f_hos");
+const docs = document.getElementById("f_docs")
 
 //Search(); //FOR TESTING PURPOSES
 
+const db = new HosAPI(); //create new 
 
 function Search() {
+
+
     let value = SearchInput.value;
+
+    db.get_hospital(value);
 
     // DESIGN AND ANIMATION CHANGES
     result.style.visibility = "visible";

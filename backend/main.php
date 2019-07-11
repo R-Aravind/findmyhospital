@@ -7,7 +7,7 @@
 
 
 <script>
-let url = 'hospital_doctors.php?id=1';
+let url = 'deparment_hospital.php?deparment=deparment';
 
 fetch(url)
 .then(res => res.json())
