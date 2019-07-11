@@ -20,6 +20,7 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
 }
 
 header img {
@@ -27,20 +28,19 @@ header img {
     width: 100px;
 }
 
-/* BACKGROUND IMAGE */
-/* main,
-footer,
-.white-space */
-div.background {
-    background-image: url("../images/pattern.jpg");
-}
+/* header p {
+    padding: 20px;
+    color: white;
+    font-size: 1.2em;
+} */
+
+
 
 main {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
-
     /* justify-content: center; */
 }
 
@@ -168,7 +168,7 @@ div.white-space {
     height: 25vh;
 }
 
-footer .footer-content {
+footer {
     margin: 0 auto;
     width: 90%;
     height: 18vh;
