@@ -26,7 +26,7 @@ function Search() {
         docs.innerHTML = "";
         featured.style.height = "190vh";
         result.style.height = "180vh";
-        result.style.transition = "height 0.9s";
+        //  result.style.transition = "height 0.9s";
     }
 
     console.log(value);
