@@ -1,8 +1,8 @@
 <?php
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "medicus";
+    $servername = "remotemysql.com";
+    $username = "J2ya6IZA4h";
+    $password = "5LvNgzsM05";
+    $dbname = "J2ya6IZA4h";
 
 function getData($sql){
     $data = array();
@@ -36,7 +36,7 @@ function getData($sql){
 
     $myJSON = json_encode($data);
 
-    echo $myJSON;
+    return $myJSON;
 
 }
 
