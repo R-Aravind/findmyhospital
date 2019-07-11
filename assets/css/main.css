@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600,800&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    font-family: 'Montserrat';
 }
 
 header {
@@ -9,15 +12,23 @@ header {
     width: 100%;
     background-color: #3750b4;
     display: flex;
-    align-items: center;
     justify-content: flex-start;
+    align-items: center;
+
 }
 
-header p {
+header img {
+    padding: 20px;
+    width: 100px;
+}
+
+/* header p {
     padding: 20px;
     color: white;
     font-size: 1.2em;
-}
+} */
+
+
 
 main {
     display: flex;
@@ -29,7 +40,7 @@ main {
 
 main .search-box {
     width: 100%;
-    height: 30vh;
+    height: 45vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,11 +68,11 @@ main .search-box input.search:hover {
 
 main .featured {
     width: 100%;
-    height: 150vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #3750b4;
     color: white;
     border-radius: 90px;
@@ -79,7 +90,8 @@ main .featured .f_hos,
     padding: 10px;
 }
 
-main .featured h3 {
+main .featured .f_hos h3,
+main .featured .f_docs h3 {
     padding: 30px;
     font-size: 1.5em;
     font-weight: 600;
@@ -97,4 +109,20 @@ main .featured .card-box .card {
     width: 180px;
     background-color: white;
     border-radius: 10px
+}
+
+div.white-space {
+    width: 100%;
+    height: 25vh;
+}
+
+footer {
+    height: 18vh;
+    background-color: #3750b4;
+    border-radius: 90px 90px 0px 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
 }
