@@ -6,10 +6,10 @@ const docs = document.getElementById("f_docs")
 
 //Search(); //FOR TESTING PURPOSES
 
+const db = new HosAPI(); //create new 
 
 function Search() {
 
-    const db = new DATABASE();
 
     let value = SearchInput.value;
 

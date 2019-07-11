@@ -1,5 +1,5 @@
 
-class DATABASE{
+class HosAPI{
     constructor(){
 
     }
