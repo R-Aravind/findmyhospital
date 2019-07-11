@@ -1,4 +1,128 @@
-*{
-padding:0;
-margin:0;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-family: 'Montserrat';
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: #3750b4;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+header img {
+    padding: 20px;
+    width: 100px;
+}
+
+/* header p {
+    padding: 20px;
+    color: white;
+    font-size: 1.2em;
+} */
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+main .search-box {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .search-box h1 {
+    color: #3750b4;
+    font-size: 3em;
+    font-weight: 800;
+    padding: 10px;
+}
+
+main .search-box input.search {
+    padding: 10px;
+    width: 40%;
+    border: 1px solid rgb(163, 163, 163, 0.5);
+    border-radius: 25px;
+}
+
+main .search-box input.search:hover {
+    box-shadow: 0px 0px 15px rgba(103, 129, 216, 0.5);
+    transition: box-shadow 0.8s;
+}
+
+main .featured {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3750b4;
+    color: white;
+    border-radius: 90px;
+}
+
+main .featured .f_hos,
+.f_docs {
+    width: 100%;
+    height: 45vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+main .featured .f_hos h3,
+main .featured .f_docs h3 {
+    padding: 30px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+main .featured .card-box {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .featured .card-box .card {
+    height: 180px;
+    width: 180px;
+    background-color: white;
+    border-radius: 10px
+}
+
+div.white-space {
+    width: 100%;
+    height: 25vh;
+}
+
+footer {
+    height: 18vh;
+    background-color: #3750b4;
+    border-radius: 90px 90px 0px 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
 }
