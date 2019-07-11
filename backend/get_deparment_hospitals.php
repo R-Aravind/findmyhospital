@@ -19,6 +19,9 @@
 
         }
 
+        echo json_encode($hospitals);
+
+        // flush();
         // print_r(unserialize($data[0]['sectors']));
     }
 

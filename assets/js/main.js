@@ -13,7 +13,8 @@ function Search() {
 
     let value = SearchInput.value;
 
-    db.get_hospital(value);
+    let data = db.get_hospital_name('Hospital 1');
+    console.log(data);
 
     // DESIGN AND ANIMATION CHANGES
     result.style.visibility = "visible";

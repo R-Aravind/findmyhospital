@@ -34,9 +34,9 @@ function getData($sql){
     }
     $conn->close();
 
-    $myJSON = json_encode($data);
+    $JSON = json_encode($data);
 
-    return $myJSON;
+    return $JSON;
 
 }
 
