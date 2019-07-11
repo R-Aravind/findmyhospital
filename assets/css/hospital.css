@@ -5,4 +5,106 @@
 
 footer .footer-content {
     width: 100%;
+    background-color: #1f0b30;
+    border-radius: 0;
+}
+
+header {
+    background-color: #1f0b30;
+    position: relative;
+}
+
+.sub-header {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-color: #1f0b30;
+}
+
+.background {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background .container {
+    position: absolute;
+    top: 40vh;
+    width: 80%;
+    height: 120vh;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(31, 11, 48, 0.3);
+}
+
+.background .container img {
+    position: relative;
+    top: -15vh;
+    left: 40vw;
+    width: 30vw;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgba(31, 11, 48, 0.3);
+}
+
+.background .container .details-box {
+    position: absolute;
+    top: 5vh;
+    left: 8vw;
+    color: #1f0b30;
+}
+
+.background .container .details-box .title h1 {
+    font-size: 2.4em;
+}
+
+.background .container .details-box .title p {
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.background .container .details-box .details {
+    padding-top: 40px;
+}
+
+.background .container .details-box .details .rating {
+    font-size: 3em;
+}
+
+.background .container .details-box .details p {
+    font-weight: 600;
+    font-size: 1.4em;
+    padding-top: 10px;
+}
+
+
+.background .container .review-box {
+    position: absolute;
+    left: 0;
+    padding-top: 20px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.background .container .review {
+    width: 60%;
+    border: 1px solid #1f0b30;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #1f0b30;
+    color: white;
+}
+
+.background .container .review p.content {
+    font-size: 1.4em;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.background .container .review p.reviewer {
+    font-style: italic;
+    padding-left: 30px;
 }
