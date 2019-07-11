@@ -1,0 +1,10 @@
+  -- API reference --
+  [link -- function]
+
+1) get_deparment_hospital.php?department=cardio -- get all hospitals having deparment cardio
+2) get_featured_doctors.php -- get all featured doctors
+4) get_featured_hospitals.php -- get all featured hospitals
+5) get_hospital_doctors.php?id=hospital_id -- get all doctors sharing same hospital
+6) get_hospital_name??name=hospital_name -- get details of hospital by name
+
+
