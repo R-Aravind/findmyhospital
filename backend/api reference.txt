@@ -6,5 +6,5 @@
 4) get_featured_hospitals.php -- get all featured hospitals
 5) get_hospital_doctors.php?id=hospital_id -- get all doctors sharing same hospital
 6) get_hospital_name?name=hospital_name -- get details of hospital by name
-
+7) get_hospital_location?location=location -- get hospital by location
 
