@@ -26,7 +26,7 @@ function getData($sql){
             // echo "Name: " . $row["first_name"]. $row["last_name"]. "<br>" . $row["age"]. "<br>";
             // $data->fname = $row["first_name"];
             // $data->lname = $row["last_name"];
-            $data['back'] = $row;
+            $data[] = $row;
         }
     } else {
         // echo "0 results";
