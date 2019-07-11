@@ -17,7 +17,7 @@ function Search() {
     result.style.visibility = "visible";
     result.style.height = "30vh";
     result.style.transition = "height 0.9s";
-    featured.style.height = "240vh";
+    featured.style.height = "210vh";
 
 
 
