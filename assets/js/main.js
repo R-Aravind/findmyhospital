@@ -8,7 +8,12 @@ const docs = document.getElementById("f_docs")
 
 
 function Search() {
+
+    const db = new DATABASE();
+
     let value = SearchInput.value;
+
+    db.get_hospital(value);
 
     // DESIGN AND ANIMATION CHANGES
     result.style.visibility = "visible";
