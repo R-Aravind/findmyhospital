@@ -1,0 +1,5 @@
+HospitalBuzz was born from a simple idea: there is no single website that aggregates reviews from across the web on hospitals. There are plenty of resources available on individual doctors, but none on the facilities where they perform surgeries.
+
+Often, where you have your surgery is as important to outcomes as the doctor you choose. So there should be a resource site available with the latest information from the Center for Medicaid and Medicare services, as well as reviews from other online sites merged into one report for each hospital.
+
+Use the search box to select your desired city and find the hospital that is right right for you.
