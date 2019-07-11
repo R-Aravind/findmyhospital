@@ -27,10 +27,6 @@ header img {
     width: 100px;
 }
 
-/* BACKGROUND IMAGE */
-/* main,
-footer,
-.white-space */
 div.background {
     background-image: url("../images/pattern.jpg");
 }
