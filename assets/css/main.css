@@ -1,10 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:600,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,800&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
     font-family: 'Montserrat';
+}
+
+/* DISABLING FOCUS */
+textarea:focus,
+input:focus {
+    outline: none;
 }
 
 header {
@@ -55,7 +61,7 @@ main .search-box h1 {
 }
 
 main .search-box input.search {
-    padding: 10px;
+    padding: 12px 21px 12px 21px;
     width: 40%;
     border: 1px solid rgb(163, 163, 163, 0.5);
     border-radius: 25px;
@@ -67,7 +73,7 @@ main .search-box input.search:hover {
 }
 
 main .featured {
-    width: 100%;
+    width: 90%;
     height: 120vh;
     display: flex;
     flex-direction: column;
@@ -87,7 +93,6 @@ main .featured .f_hos,
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
 }
 
 main .featured .f_hos h3,
@@ -105,11 +110,58 @@ main .featured .card-box {
 }
 
 main .featured .card-box .card {
-    height: 180px;
+    height: 200px;
     width: 180px;
     background-color: white;
-    border-radius: 10px
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
+
+main .featured .card-box img {
+    width: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    /* border: 1px solid white;
+    border-radius: 10px;
+    outline: none;
+    background-color: grey; */
+}
+
+main .featured .card-box .card-content {
+    width: 180px;
+    height: 200px;
+    color: #1f0b30;
+    font-size: 0.9em;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .featured .card-box .card-content:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0);
+    transition: background-color 0.8s;
+    transition: color 0.8s;
+}
+
+main .featured .card-box .card-content .name {
+    font-size: 1.4em;
+    font-weight: 800;
+}
+
+main .featured .card-box .card-content .department {
+    font-weight: 600;
+}
+
 
 div.white-space {
     width: 100%;
@@ -117,6 +169,8 @@ div.white-space {
 }
 
 footer {
+    margin: 0 auto;
+    width: 90%;
     height: 18vh;
     background-color: #3750b4;
     border-radius: 90px 90px 0px 0px;
@@ -124,5 +178,5 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
