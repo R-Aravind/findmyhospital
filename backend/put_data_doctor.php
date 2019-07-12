@@ -10,7 +10,12 @@
     
     <form action="put_data_doctor.php" method="post">
 
-        
+        <input type="text" placeholder="name">
+        <input type="text" placeholder="experience">
+        <input type="text" placeholder="gender">
+        <input type="text" placeholder="rating">
+        <input type="text" placeholder="review">
+        <input type="text" placeholder="name">
 
     </form>
 

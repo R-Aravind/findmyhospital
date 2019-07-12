@@ -1,15 +1,15 @@
 <?php 
-    require_once "database.php";
+    // require_once "database.php";
 
-    if(isset($_GET['id'])){
-        $id = $_GET['id'];
+    // if(isset($_GET['id'])){
+    //     $id = $_GET['id'];
 
-        $sql = "SELECT * FROM doctor WHERE id='$'"
+    //     $sql = "SELECT * FROM doctor WHERE id='$'"
 
-        $data = getRawData()
-    
+    //     $data = getRawData()
+        
 
-    }
+    // }
 
 
 

@@ -49,4 +49,7 @@ function Search() {
     console.log(value);
 }
 
-
+SearchInput.addEventListener("keydown", function (e) { if (e.keyCode === 13) {
+    Search();
+    }
+});
