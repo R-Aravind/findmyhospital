@@ -12,6 +12,7 @@ footer .footer-content {
 header {
     background-color: #1f0b30;
     position: relative;
+    border-bottom: 1px solid lightgrey;
 }
 
 .sub-header {
@@ -23,7 +24,7 @@ header {
 
 .background {
     width: 100%;
-    height: 110vh;
+    height: 155vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,7 +34,7 @@ header {
     position: absolute;
     top: 40vh;
     width: 80%;
-    height: 120vh;
+    height: 150vh;
     background-color: white;
     border-radius: 30px;
     box-shadow: 0 0 10px rgba(31, 11, 48, 0.3);
@@ -107,4 +108,73 @@ header {
 .background .container .review p.reviewer {
     font-style: italic;
     padding-left: 30px;
+}
+
+.background .container .department-box h1 {
+    font-size: 2em;
+}
+
+.background .container .department-box h3 {
+    font-weight: 600;
+}
+
+.background .container .department-box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: -6.4vw;
+    top: 90vh;
+    width: 76vw;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+.background .container .department-box .dep-container h1 {
+    padding-top: 40px;
+} */
+
+.background .container .department-box .dep-container {
+    position: relative;
+    width: 82%;
+    height: 40vh;
+    color: white;
+    background-color: #1f0b30;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.background .container .department-box .dep-container .dep-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.background .container .department-box .dep-container .dep-header h3 {
+    padding: 10px;
+    width: 100%;
+    height: 5vh;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+}
+
+.background .container .department-box .dep-container .dep-header .leftie {
+    border-right: 1px solid lightgrey;
+}
+
+
+.background .container .department-box .dep-container .dep-header .rightie {
+    border-left: 1px solid lightgrey;
+}
+
+.background .container .department-box .dep-container .dep-results {
+    width: 100%;
+}
+
+#dep-2,
+#dep-3 {
+    visibility: hidden;
 }
