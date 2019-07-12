@@ -3,40 +3,82 @@ function get_hospital_name(hospital, container){
     
     $.get(url, function(data, status){
         data = JSON.parse(data);
-        console.log(data);
-        $(container + ' #name').text(data[0].name);
+        data.forEach((data, i) => {
+            $(container + ' #name'+i).text(data.name);
+            $(container + ' #id'+i).text(data.name);
+            $(container + ' #photo'+i).text(data.name);
+            $(container + ' #rating'+i).text(data.name); 
+            $(container + ' #department'+i).text(data.name);
+            $(container + ' #experience'+i).text(data.name);
+            $(container + ' #featured'+i).text(data.name);
+            $(container + ' #gender'+i).text(data.name);
+            $(container + ' #hospital_id'+i).text(data.name);
+            $(container + ' #hospital_name'+i).text(data.name); 
+        }); 
     });
 }
 
 
 //get hospital details @param location of hospital
-function get_hospital_location(location){
+function get_hospital_location(container,location){
     const url = `/backend/get_hospital_location.php?location=${location}`;
     $.get(url, function(data, status){
         data = JSON.parse(data);
         console.log(data);
-        $(container + ' #name').text(data[0].name);  
+        data.forEach((data, i) => {
+            $(container + ' #name'+i).text(data.name);
+            $(container + ' #id'+i).text(data.name);
+            $(container + ' #photo'+i).text(data.name);
+            $(container + ' #rating'+i).text(data.name); 
+            $(container + ' #department'+i).text(data.name);
+            $(container + ' #experience'+i).text(data.name);
+            $(container + ' #featured'+i).text(data.name);
+            $(container + ' #gender'+i).text(data.name);
+            $(container + ' #hospital_id'+i).text(data.name);
+            $(container + ' #hospital_name'+i).text(data.name); 
+        });  
     });
 
 }
 
 // get all doctors of a hospital @param hospital id
-function get_doctors_hospital(id){
+function get_doctors_hospital(conatainer,id){
     const url = `/backend/get_hospital_doctors.php?id=${id}`;
     $.get(url, function(data, status){
         data = JSON.parse(data);
         console.log(data);
-        $(container + ' #name').text(data[0].name); 
+        data.forEach((data, i) => {
+            console.log(data.name);
+            $(container + ' #name'+i).text(data.name);
+            $(container + ' #id'+i).text(data.name);
+            $(container + ' #photo'+i).text(data.name);
+            $(container + ' #rating'+i).text(data.name); 
+            $(container + ' #department'+i).text(data.name);
+            $(container + ' #experience'+i).text(data.name);
+            $(container + ' #featured'+i).text(data.name);
+            $(container + ' #gender'+i).text(data.name);
+            $(container + ' #hospital_id'+i).text(data.name);
+            $(container + ' #hospital_name'+i).text(data.name); 
+        }); 
       });
 }
 
 // get hospitals by departments  |ISSUE|
-function get_department_hospitals(department){
+function get_department_hospitals(container,department){
     const url = `/backend/get_deparment_hospitals.php?department=${department}`;
     $.get(url, function(data, status){
         data = JSON.parse(data);
-        console.log(data);
-        $(container + ' #name').text(data[0].name);  
+        data.forEach((data, i) => {
+            $(container + ' #name'+i).text(data.name);
+            $(container + ' #id'+i).text(data.name);
+            $(container + ' #photo'+i).text(data.name);
+            $(container + ' #rating'+i).text(data.name); 
+            $(container + ' #location'+i).text(data.name);
+            $(container + ' #adress'+i).text(data.name);
+            $(container + ' #featured'+i).text(data.name);
+            $(container + ' #phone'+i).text(data.name);
+            $(container + ' #price'+i).text(data.name); 
+        });  
       });
 }
 
@@ -61,12 +103,24 @@ function get_featured_doctors(container){
     });
 }
 
-function get_featured_hospitals(){
+
+function get_featured_hospitals(container){
     const url = `/backend/get_featured_hospitals.php`;
     $.get(url, function(data, status){
         data = JSON.parse(data);
-        console.log(data);
-        $(container + ' #name').text(data[0].name);  
+
+        data.forEach((data, i) => {
+            $(container + ' #name'+i).text(data.name);
+            $(container + ' #id'+i).text(data.name);
+            $(container + ' #photo'+i).text(data.name);
+            $(container + ' #rating'+i).text(data.name); 
+            $(container + ' #department'+i).text(data.name);
+            $(container + ' #experience'+i).text(data.name);
+            $(container + ' #featured'+i).text(data.name);
+            $(container + ' #gender'+i).text(data.name);
+            $(container + ' #hospital_id'+i).text(data.name);
+            $(container + ' #hospital_name'+i).text(data.name); 
+        });  
     });
 }
 
