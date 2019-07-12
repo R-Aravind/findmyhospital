@@ -6,10 +6,12 @@ This website or web-app aims to help people to find quality healthcare near them
  You only need a browser and a text editor to work with this document
 
  ## Built With
-
- * [Visual Studio Code](https://code.visualstudio.com/) - The text editor used
-* [Laravel](https://laravel.com/) - Our PHP framework
+* [PHP](https://www.php.net) - Our Server scripting language
 * [JQuery](https://jquery.com/) - Our javascript Library
+* [JS](https://developer.mozilla.org/en-US/docs/Web/javascript) - Our scrtpting language
+* [HTML](https://www.w3.org) - Web Language
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - Cascading style sheet
+* [Ajax](https://jquery.com) - Form control
 
  ## Contributing
 
