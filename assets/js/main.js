@@ -6,7 +6,7 @@ const docs = document.getElementById("f_docs")
 
 //Search(); //FOR TESTING PURPOSES
 
-const db = new HosAPI(); //create new 
+// const db = new HosAPI(); //create new 
 
 function Search() {
 
@@ -15,9 +15,7 @@ function Search() {
 
     // console.log(db.fetch_data('hello'));
 
-    db.get_hospital_name(value, function(data){
-        console.log(data)
-    });
+    get_featured_doctors('.container');
 
     // let data = db.get_hospital_name('Hospital 1');
     // console.log(data);
@@ -43,3 +41,5 @@ function Search() {
 
     console.log(value);
 }
+
+
