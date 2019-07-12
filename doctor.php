@@ -38,7 +38,7 @@
 
 <body>
     <header>
-        <img src="./assets/images/icon.png" alt="icon">
+        <a href="./index.html"><img src="./assets/images/icon.png" alt="icon"></a>
     </header>
 
     <div class="sub-header">
@@ -64,7 +64,9 @@
                         &star;&star;&star;&star;
                     </div>
                     <h3>Ortho</h3>
-                    <p>Hospital 1</p>
+                    <a href="./hospital.html">
+                        <p>Hospital 1</p>
+                    </a>
                 </div>
             </div>
 
