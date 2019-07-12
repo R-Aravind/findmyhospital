@@ -13,8 +13,14 @@ function Search() {
 
     let value = SearchInput.value;
 
-    let data = db.get_hospital_name('Hospital 1');
-    console.log(data);
+    // console.log(db.fetch_data('hello'));
+
+    db.get_hospital_name(value, function(data){
+        console.log(data)
+    });
+
+    // let data = db.get_hospital_name('Hospital 1');
+    // console.log(data);
 
     // DESIGN AND ANIMATION CHANGES
     result.style.visibility = "visible";
