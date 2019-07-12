@@ -12,7 +12,7 @@ footer .footer-content {
 header {
     background-color: #1f0b30;
     position: relative;
-    border-bottom: 1px solid lightgrey;
+    /* border-bottom: 1px solid lightgrey; */
 }
 
 .sub-header {
@@ -24,7 +24,7 @@ header {
 
 .background {
     width: 100%;
-    height: 155vh;
+    height: 152vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,7 +34,7 @@ header {
     position: absolute;
     top: 40vh;
     width: 80%;
-    height: 150vh;
+    height: 155vh;
     background-color: white;
     border-radius: 30px;
     box-shadow: 0 0 10px rgba(31, 11, 48, 0.3);
@@ -167,11 +167,13 @@ header {
 
 .background .container .department-box .dep-container .dep-header .leftie {
     border-right: 1px solid lightgrey;
+    border-radius: 15px 0 0 0;
 }
 
 
 .background .container .department-box .dep-container .dep-header .rightie {
     border-left: 1px solid lightgrey;
+    border-radius: 0 15px 0 0;
 }
 
 .background .container .department-box .dep-container .dep-results {

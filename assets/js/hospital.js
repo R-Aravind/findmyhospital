@@ -9,6 +9,13 @@ let dep3 = document.getElementById("dep-3");
 Select1();
 
 function Select1() {
+    btn1.style.color = "#1f0b30";
+    btn1.style.backgroundColor = "white";
+
+    btn2.style.color = "white";
+    btn2.style.backgroundColor = "#1f0b30";
+    btn3.style.color = "white";
+    btn3.style.backgroundColor = "#1f0b30";
 
     dep1.style.visibility = "visible";
     dep2.style.visibility = "hidden";
@@ -23,6 +30,13 @@ function Select1() {
 }
 
 function Select2() {
+    btn2.style.color = "#1f0b30";
+    btn2.style.backgroundColor = "white";
+
+    btn1.style.color = "white";
+    btn1.style.backgroundColor = "#1f0b30";
+    btn3.style.color = "white";
+    btn3.style.backgroundColor = "#1f0b30";
 
     dep2.style.visibility = "visible";
     dep1.style.visibility = "hidden";
@@ -37,6 +51,13 @@ function Select2() {
 }
 
 function Select3() {
+    btn3.style.color = "#1f0b30";
+    btn3.style.backgroundColor = "white";
+
+    btn1.style.color = "white";
+    btn1.style.backgroundColor = "#1f0b30";
+    btn2.style.color = "white";
+    btn2.style.backgroundColor = "#1f0b30";
 
     dep3.style.visibility = "visible";
     dep2.style.visibility = "hidden";

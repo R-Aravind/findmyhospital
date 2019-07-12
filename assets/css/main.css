@@ -12,9 +12,16 @@
 textarea:focus,
 input:focus,
 button:focus,
-.search-button {
+.search-button,
+a:active {
     outline: none;
 }
+
+button::-moz-focus-inner,
+a::-moz-focus-inner {
+    border: none;
+}
+
 
 /*  RESPONSIVE CSS
         PC CSS      line no. 23
