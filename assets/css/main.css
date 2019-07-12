@@ -11,6 +11,7 @@
 /* DISABLING FOCUS */
 textarea:focus,
 input:focus,
+button:focus,
 .search-button {
     outline: none;
 }

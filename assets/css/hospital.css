@@ -153,10 +153,14 @@ header {
     justify-content: space-evenly;
 }
 
-.background .container .department-box .dep-container .dep-header h3 {
+.background .container .department-box .dep-container .dep-header button {
+    background-color: transparent;
+    color: white;
     padding: 10px;
+    font-size: 1.2em;
     width: 100%;
-    height: 5vh;
+    font-weight: 600;
+    height: 8vh;
     border-bottom: 1px solid lightgray;
     text-align: center;
 }
@@ -172,9 +176,27 @@ header {
 
 .background .container .department-box .dep-container .dep-results {
     width: 100%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background .container .department-box .dep-container .dep-results ol {
+    list-style: none;
+}
+
+.background .container .department-box .dep-container .dep-results a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
 }
 
 #dep-2,
 #dep-3 {
+    width: 0;
+    height: 0;
     visibility: hidden;
 }
