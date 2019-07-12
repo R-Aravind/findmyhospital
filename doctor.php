@@ -1,3 +1,22 @@
+<?php 
+    require_once "database.php";
+
+    if(isset($_GET['id'])){
+        $id = $_GET['id'];
+
+        $sql = "SELECT * FROM doctor WHERE id='$'"
+
+        $data = getRawData()
+    
+
+    }
+
+
+
+
+?>
+
+
 <html lang="en">
 
 <head>
