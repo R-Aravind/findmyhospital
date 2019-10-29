@@ -20,7 +20,7 @@ This website or web-app aims to help people to find quality healthcare near them
 
  ## Authors
 
- * **R Aravind** - *Front-End & Design* - [R Aravind](https://github.com/R-Aravind)
+ * **R Aravind** - *Front-End and Design* - [R Aravind](https://github.com/R-Aravind)
 * **Akhil Ravindran** - *Back-End* - [ghostjson](https://github.com/ghostjson)
 * **Jeenu Chacko** - *Wireframe & Idea* - [CJ799](https://github.com/CJ799)
 * **Jesswin W Varghese** - *Front-End, Design & Content* - [Jesswinw](https://github.com/Jesswinw)
@@ -31,5 +31,5 @@ This website or web-app aims to help people to find quality healthcare near them
 
  ## Acknowledgments
 
-* Thanks to all who contributed to this
+* Thanks to all well wishers contributed to this. 
 * Main content made in [ISQIP '19](https://isqip.cecieee.org/)
