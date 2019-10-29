@@ -31,5 +31,5 @@ This website or web-app aims to help people to find quality healthcare near them
 
  ## Acknowledgments
 
-* Thanks to all who contributed to this
+* Thanks to all well wishers contributed to this. 
 * Main content made in [ISQIP '19](https://isqip.cecieee.org/)
